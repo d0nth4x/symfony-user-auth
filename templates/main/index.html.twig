@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %} {% block title %}{{ controller_name }}!{% endblock %} {% block body %}
+
+
+<div class="jumbotron jumbotron-fluid writing-bg">
+    <div class="container mh60vh text-white">
+        <h1 class="display-4 font-weight-normal">Lorem ipsum</h1>
+        <p class="lead font-weight-normal">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+        <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+    </div>
+</div>
+
+<div class="example-wrapper">
+    <h1>{{ controller_name }}</h1>
+
+    <a href="{{ path('login') }}">zaloguj</a>
+</div>
+{% endblock %}
